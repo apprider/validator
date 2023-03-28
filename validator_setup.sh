@@ -17,7 +17,7 @@ echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.profile
 source ~/.profile
 
 # Clone and build polygons-sdk
-git clone https://github.com/apprider/carechainnode && cd carechain
+git clone https://github.com/apprider/carechain && cd carechain
 echo "Building Go executable, please wait..."
 go build main.go
 
