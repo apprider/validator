@@ -18,7 +18,7 @@ sudo apt-get install golang
 # Clone and build polygons-sdk
 git clone https://github.com/apprider/carechain && cd carechain
 echo "Building Go executable, please wait..."
-go build main.go -o carechainnode
+go build -o carechainnode
 
 # Initialize validator dir
 echo "Initializing validator directory.."
