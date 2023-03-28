@@ -20,6 +20,11 @@ git clone https://github.com/apprider/carechain && cd carechain
 echo "Building Go executable, please wait..."
 go build -o carechainnode
 
+#move it to usr/bin
+sudo mv carechainnode /usr/local/bin
+
+
+
 # Initialize validator dir
 echo "Initializing validator directory.."
 cp ../genesis.json . && chmod +x genesis.json
